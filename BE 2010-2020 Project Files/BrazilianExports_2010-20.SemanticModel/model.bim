@@ -1,0 +1,5082 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"Dim_BrazilLocation\",\"Dim_ExportDestination\",\"Dim_Product\",\"Dim_Date\",\"Fact_BrazilExports\",\"Measures Table\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "0"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.137.751.0 (24.10)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "dim_brazil_location": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dim_BrazilLocation"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dim brazil location": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Dim_BrazilLocation": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "location": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "brazil location": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "dim brazil locality": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "dim brazil placement": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "dim brazil scene": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "dim brazil venue": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "brazil locality": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "brazil placement": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "brazil scene": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "brazil venue": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "dim brazil address": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  },
+                  {
+                    "dim brazil place": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  }
+                ]
+              },
+              "dim_brazil_location.city": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dim_BrazilLocation",
+                    "ConceptualProperty": "City"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "city": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "metropolis": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "municipality": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "town": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "metropolitan": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "dim_brazil_location.city_ID": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dim_BrazilLocation",
+                    "ConceptualProperty": "CityID"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "city ID": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "CityID": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "city identification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "city identity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "city identifier": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "city credential": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "location id": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "metropolis id": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "municipality id": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "town id": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "metropolitan id": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "dim_brazil_location.state": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dim_BrazilLocation",
+                    "ConceptualProperty": "State"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {},
+                  {
+                    "province": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "territory": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "nation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "condition": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "dim_brazil_location.state_abbv": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dim_BrazilLocation",
+                    "ConceptualProperty": "State Abbv"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "state abbv": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "location abbv": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "province abbv": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "territory abbv": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "nation abbv": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "condition abbv": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "country abbv": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "dim_date": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dim_Date"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dim date": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Dim_Date": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "dim moment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "dim period": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "dim_date.date": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dim_Date",
+                    "ConceptualProperty": "Date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "date": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "moment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "period": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "dim_date.date_ID": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dim_Date",
+                    "ConceptualProperty": "DateID"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "date ID": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "DateID": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "date identification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "date identity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "date identifier": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "date credential": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "moment id": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "period id": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "dim_date.date_inc_ref": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dim_Date",
+                    "ConceptualProperty": "DateIncRef"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "date inc ref": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "DateIncRef": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "moment inc ref": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "period inc ref": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "date inc arbitrator": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "date inc adjudicator": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "date inc mediator": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "date inc arbiter": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "date inc referee": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "date inc umpire": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "date inc judge": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  }
+                ]
+              },
+              "dim_date.month": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dim_Date",
+                    "ConceptualProperty": "Month"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "mth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  }
+                ]
+              },
+              "dim_date.month_num": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dim_Date",
+                    "ConceptualProperty": "MonthNum"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "month num": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "MonthNum": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "month number": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "mth num": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  }
+                ]
+              },
+              "dim_date.quarter": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dim_Date",
+                    "ConceptualProperty": "Quarter"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "quarter": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "qtr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.818
+                    }
+                  }
+                ]
+              },
+              "dim_date.year": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dim_Date",
+                    "ConceptualProperty": "Year"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  }
+                ]
+              },
+              "dim_export_destination": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dim_ExportDestination"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dim export destination": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Dim_ExportDestination": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "destination": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "export destination": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "dim export intention": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "export intention": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "dim export purpose": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.468
+                    }
+                  },
+                  {
+                    "dim export end": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.468
+                    }
+                  },
+                  {
+                    "dim export target": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.468
+                    }
+                  },
+                  {
+                    "dim export aim": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.468
+                    }
+                  },
+                  {
+                    "dim export goal": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.468
+                    }
+                  },
+                  {
+                    "dim export objective": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.468
+                    }
+                  },
+                  {
+                    "intention": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "export purpose": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  }
+                ]
+              },
+              "dim_export_destination.country": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dim_ExportDestination",
+                    "ConceptualProperty": "Country"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "country": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "nation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  }
+                ]
+              },
+              "dim_export_destination.country_ID": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dim_ExportDestination",
+                    "ConceptualProperty": "CountryID"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "country ID": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "CountryID": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "country identification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "country identity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "country identifier": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "country credential": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "nation id": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "location id": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  }
+                ]
+              },
+              "dim_export_destination.region": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dim_ExportDestination",
+                    "ConceptualProperty": "Region"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "region": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "province": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "area": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "district": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "section": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "zone": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "continent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "dim_product": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dim_Product"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dim product": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Dim_Product": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "dim artifact": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "dim item": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "dim merchandise": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "dim produce": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "dim_product.industry": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dim_Product",
+                    "ConceptualProperty": "Industry"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "industry": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "commerce": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "production": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "manufacturing": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "business": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "trade": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "engineering": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "diligence": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "productiveness": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "conscientiousness": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "activity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  }
+                ]
+              },
+              "dim_product.industry_code": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dim_Product",
+                    "ConceptualProperty": "Industry Code"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "industry code": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "industry id": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "industry key": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "dim_product.industry_group": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dim_Product",
+                    "ConceptualProperty": "Industry Group"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "industry group": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "industry category": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "industry organization": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "industry bracket": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "industry class": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "industry crew": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "industry team": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "dim_product.product": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dim_Product",
+                    "ConceptualProperty": "Product"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "product": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "artifact": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "item": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "merchandise": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "produce": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "dim_product.product_code": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dim_Product",
+                    "ConceptualProperty": "ProductCode"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "product code": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "ProductCode": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "product id": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "product key": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "artifact code": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "item code": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "merchandise code": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "produce code": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "dim_product.sector": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dim_Product",
+                    "ConceptualProperty": "Sector"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "sector": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "subdivision": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "division": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "segment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "area": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "part": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "zone": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "district": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  }
+                ]
+              },
+              "fact_brazil_export": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Fact_BrazilExports"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "fact brazil export": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Fact_BrazilExports": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "export": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "brazil export": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "fact_brazil_export.city_ID": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Fact_BrazilExports",
+                    "ConceptualProperty": "CityID"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "city ID": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "CityID": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "city identification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "city identity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "city identifier": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "city credential": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "location id": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "metropolis id": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "municipality id": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "town id": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "metropolitan id": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "fact_brazil_export.country_ID": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Fact_BrazilExports",
+                    "ConceptualProperty": "CountryID"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "country ID": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "CountryID": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "country identification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "country identity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "country identifier": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "country credential": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "nation id": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "location id": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "fact_brazil_export.date_ID": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Fact_BrazilExports",
+                    "ConceptualProperty": "DateID"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "date ID": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "DateID": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "date identification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "date identity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "date identifier": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "date credential": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "moment id": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "period id": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "fact_brazil_export.date_inc_ref": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Fact_BrazilExports",
+                    "ConceptualProperty": "DateIncRef"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "date inc ref": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "DateIncRef": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  },
+                  {
+                    "moment inc ref": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "period inc ref": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "date inc arbitrator": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "date inc adjudicator": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "date inc mediator": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "date inc arbiter": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "date inc referee": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "date inc umpire": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "date inc judge": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  }
+                ]
+              },
+              "fact_brazil_export.date_inc_ref.variation.date_hierarchy": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Fact_BrazilExports",
+                    "Hierarchy": "Date Hierarchy",
+                    "VariationSet": "Variation",
+                    "VariationSource": "DateIncRef"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "date hierarchy inc ref": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date hierarchy": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "fact_brazil_export.date_inc_ref.variation.date_hierarchy.day": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Fact_BrazilExports",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Day",
+                    "VariationSet": "Variation",
+                    "VariationSource": "DateIncRef"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "day inc ref": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "day": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date inc ref day": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "moment inc ref day": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "period inc ref day": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  },
+                  {
+                    "day inc arbitrator": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "day inc adjudicator": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "day inc mediator": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "day inc arbiter": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "day inc referee": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "day inc umpire": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "day inc judge": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  }
+                ]
+              },
+              "fact_brazil_export.date_inc_ref.variation.date_hierarchy.month": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Fact_BrazilExports",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Month",
+                    "VariationSet": "Variation",
+                    "VariationSource": "DateIncRef"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "month inc ref": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date inc ref month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date inc ref mth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.771
+                    }
+                  },
+                  {
+                    "mth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "moment inc ref month": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "mth inc ref": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "period inc ref month": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  },
+                  {
+                    "month inc arbitrator": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "month inc adjudicator": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "month inc mediator": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "month inc arbiter": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "month inc referee": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  }
+                ]
+              },
+              "fact_brazil_export.date_inc_ref.variation.date_hierarchy.quarter": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Fact_BrazilExports",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Quarter",
+                    "VariationSet": "Variation",
+                    "VariationSource": "DateIncRef"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "quarter inc ref": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "quarter": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date inc ref quarter": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date inc ref qtr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.857
+                    }
+                  },
+                  {
+                    "qtr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.818
+                    }
+                  },
+                  {
+                    "qtr inc ref": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.677
+                    }
+                  },
+                  {
+                    "moment inc ref quarter": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "period inc ref quarter": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  },
+                  {
+                    "quarter inc arbitrator": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "quarter inc adjudicator": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "quarter inc mediator": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "quarter inc arbiter": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "quarter inc referee": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  }
+                ]
+              },
+              "fact_brazil_export.date_inc_ref.variation.date_hierarchy.year": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Fact_BrazilExports",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Year",
+                    "VariationSet": "Variation",
+                    "VariationSource": "DateIncRef"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "year inc ref": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date inc ref year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date inc ref yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.771
+                    }
+                  },
+                  {
+                    "yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "moment inc ref year": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "yr inc ref": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "period inc ref year": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  },
+                  {
+                    "year inc arbitrator": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "year inc adjudicator": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "year inc mediator": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "year inc arbiter": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "year inc referee": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  }
+                ]
+              },
+              "fact_brazil_export.export_earnings": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Fact_BrazilExports",
+                    "ConceptualProperty": "ExportEarnings"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "export earnings": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "ExportEarnings": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "earnings": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "export salary": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "export income": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "export paycheck": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "export remuneration": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "export retribution": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "salary": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "income": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "paycheck": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "remuneration": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "retribution": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  }
+                ]
+              },
+              "fact_brazil_export.product_code": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Fact_BrazilExports",
+                    "ConceptualProperty": "ProductCode"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "product code": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "ProductCode": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "product id": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "product key": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "artifact code": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "item code": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "merchandise code": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "produce code": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "measures_table.export_concentration": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Measures Table",
+                    "ConceptualProperty": "Export Concentration"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "EC": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "measures_table.export_earnings_mom": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Measures Table",
+                    "ConceptualProperty": "Export Earnings MOM"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "EE MoM%": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "Export Earnings MoM%": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "measures_table.export_earnings_per_month": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Measures Table",
+                    "ConceptualProperty": "Export Earnings Per Month"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "EE Per Mth": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "measures_table.export_earnings_yoy": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Measures Table",
+                    "ConceptualProperty": "Export Earnings YOY"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "EE YoY%": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "Export Earnings YoY%": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "measures_table.state_export_concentration": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Measures Table",
+                    "ConceptualProperty": "State Export Concentration"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "State EC": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "measures_table.total_export_earnings": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Measures Table",
+                    "ConceptualProperty": "Total Export Earnings"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Total EE": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "dim_brazil_location_has_city": {
+                "Binding": {
+                  "ConceptualEntity": "Dim_BrazilLocation"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_brazil_location.city"
+                      },
+                      "Subject": {
+                        "Role": "dim_brazil_location"
+                      }
+                    },
+                    "ID": "dim_brazil_locations_have_cities",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_brazil_location": {
+                    "Target": {
+                      "Entity": "dim_brazil_location"
+                    }
+                  },
+                  "dim_brazil_location.city": {
+                    "Target": {
+                      "Entity": "dim_brazil_location.city"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_brazil_location_has_city_ID": {
+                "Binding": {
+                  "ConceptualEntity": "Dim_BrazilLocation"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_brazil_location.city_ID"
+                      },
+                      "Subject": {
+                        "Role": "dim_brazil_location"
+                      }
+                    },
+                    "ID": "dim_brazil_locations_have_city_ID",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_brazil_location": {
+                    "Target": {
+                      "Entity": "dim_brazil_location"
+                    }
+                  },
+                  "dim_brazil_location.city_ID": {
+                    "Target": {
+                      "Entity": "dim_brazil_location.city_ID"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_brazil_location_has_state": {
+                "Binding": {
+                  "ConceptualEntity": "Dim_BrazilLocation"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_brazil_location.state"
+                      },
+                      "Subject": {
+                        "Role": "dim_brazil_location"
+                      }
+                    },
+                    "ID": "dim_brazil_locations_have_states",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_brazil_location": {
+                    "Target": {
+                      "Entity": "dim_brazil_location"
+                    }
+                  },
+                  "dim_brazil_location.state": {
+                    "Target": {
+                      "Entity": "dim_brazil_location.state"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_brazil_location_has_state_abbv": {
+                "Binding": {
+                  "ConceptualEntity": "Dim_BrazilLocation"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_brazil_location.state_abbv"
+                      },
+                      "Subject": {
+                        "Role": "dim_brazil_location"
+                      }
+                    },
+                    "ID": "dim_brazil_locations_have_state_abbvs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_brazil_location": {
+                    "Target": {
+                      "Entity": "dim_brazil_location"
+                    }
+                  },
+                  "dim_brazil_location.state_abbv": {
+                    "Target": {
+                      "Entity": "dim_brazil_location.state_abbv"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_brazil_location_in_city": {
+                "Binding": {
+                  "ConceptualEntity": "Dim_BrazilLocation"
+                },
+                "Phrasings": [
+                  {
+                    "ID": "dim_brazil_locations_are_in_cities",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "dim_brazil_location.city"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "dim_brazil_location"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_brazil_location": {
+                    "Target": {
+                      "Entity": "dim_brazil_location"
+                    }
+                  },
+                  "dim_brazil_location.city": {
+                    "Target": {
+                      "Entity": "dim_brazil_location.city"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "Where": {
+                    "Role": "dim_brazil_location.city"
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_brazil_location_in_state": {
+                "Binding": {
+                  "ConceptualEntity": "Dim_BrazilLocation"
+                },
+                "Phrasings": [
+                  {
+                    "ID": "dim_brazil_locations_are_in_states",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "dim_brazil_location.state"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "dim_brazil_location"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_brazil_location": {
+                    "Target": {
+                      "Entity": "dim_brazil_location"
+                    }
+                  },
+                  "dim_brazil_location.state": {
+                    "Target": {
+                      "Entity": "dim_brazil_location.state"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "Where": {
+                    "Role": "dim_brazil_location.state"
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_brazil_location_in_state_abbv": {
+                "Binding": {
+                  "ConceptualEntity": "Dim_BrazilLocation"
+                },
+                "Phrasings": [
+                  {
+                    "ID": "dim_brazil_locations_are_in_state_abbvs",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "dim_brazil_location.state_abbv"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "dim_brazil_location"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_brazil_location": {
+                    "Target": {
+                      "Entity": "dim_brazil_location"
+                    }
+                  },
+                  "dim_brazil_location.state_abbv": {
+                    "Target": {
+                      "Entity": "dim_brazil_location.state_abbv"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "Where": {
+                    "Role": "dim_brazil_location.state_abbv"
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_date_has_date": {
+                "Binding": {
+                  "ConceptualEntity": "Dim_Date"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_date.date"
+                      },
+                      "Subject": {
+                        "Role": "dim_date"
+                      }
+                    },
+                    "ID": "dim_dates_have_dates",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_date": {
+                    "Target": {
+                      "Entity": "dim_date"
+                    }
+                  },
+                  "dim_date.date": {
+                    "Target": {
+                      "Entity": "dim_date.date"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_date_has_date_ID": {
+                "Binding": {
+                  "ConceptualEntity": "Dim_Date"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_date.date_ID"
+                      },
+                      "Subject": {
+                        "Role": "dim_date"
+                      }
+                    },
+                    "ID": "dim_dates_have_date_ID",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_date": {
+                    "Target": {
+                      "Entity": "dim_date"
+                    }
+                  },
+                  "dim_date.date_ID": {
+                    "Target": {
+                      "Entity": "dim_date.date_ID"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_date_has_date_inc_ref": {
+                "Binding": {
+                  "ConceptualEntity": "Dim_Date"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_date.date_inc_ref"
+                      },
+                      "Subject": {
+                        "Role": "dim_date"
+                      }
+                    },
+                    "ID": "dim_dates_have_date_inc_refs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_date": {
+                    "Target": {
+                      "Entity": "dim_date"
+                    }
+                  },
+                  "dim_date.date_inc_ref": {
+                    "Target": {
+                      "Entity": "dim_date.date_inc_ref"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_date_has_month": {
+                "Binding": {
+                  "ConceptualEntity": "Dim_Date"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_date.month"
+                      },
+                      "Subject": {
+                        "Role": "dim_date"
+                      }
+                    },
+                    "ID": "dim_dates_have_months",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_date": {
+                    "Target": {
+                      "Entity": "dim_date"
+                    }
+                  },
+                  "dim_date.month": {
+                    "Target": {
+                      "Entity": "dim_date.month"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_date_has_month_num": {
+                "Binding": {
+                  "ConceptualEntity": "Dim_Date"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_date.month_num"
+                      },
+                      "Subject": {
+                        "Role": "dim_date"
+                      }
+                    },
+                    "ID": "dim_dates_have_month_nums",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_date": {
+                    "Target": {
+                      "Entity": "dim_date"
+                    }
+                  },
+                  "dim_date.month_num": {
+                    "Target": {
+                      "Entity": "dim_date.month_num"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_date_has_quarter": {
+                "Binding": {
+                  "ConceptualEntity": "Dim_Date"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_date.quarter"
+                      },
+                      "Subject": {
+                        "Role": "dim_date"
+                      }
+                    },
+                    "ID": "dim_dates_have_quarters",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_date": {
+                    "Target": {
+                      "Entity": "dim_date"
+                    }
+                  },
+                  "dim_date.quarter": {
+                    "Target": {
+                      "Entity": "dim_date.quarter"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_date_has_year": {
+                "Binding": {
+                  "ConceptualEntity": "Dim_Date"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_date.year"
+                      },
+                      "Subject": {
+                        "Role": "dim_date"
+                      }
+                    },
+                    "ID": "dim_dates_have_years",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_date": {
+                    "Target": {
+                      "Entity": "dim_date"
+                    }
+                  },
+                  "dim_date.year": {
+                    "Target": {
+                      "Entity": "dim_date.year"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_export_destination_has_country": {
+                "Binding": {
+                  "ConceptualEntity": "Dim_ExportDestination"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_export_destination.country"
+                      },
+                      "Subject": {
+                        "Role": "dim_export_destination"
+                      }
+                    },
+                    "ID": "dim_export_destinations_have_countries",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_export_destination": {
+                    "Target": {
+                      "Entity": "dim_export_destination"
+                    }
+                  },
+                  "dim_export_destination.country": {
+                    "Target": {
+                      "Entity": "dim_export_destination.country"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_export_destination_has_country_ID": {
+                "Binding": {
+                  "ConceptualEntity": "Dim_ExportDestination"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_export_destination.country_ID"
+                      },
+                      "Subject": {
+                        "Role": "dim_export_destination"
+                      }
+                    },
+                    "ID": "dim_export_destinations_have_country_ID",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_export_destination": {
+                    "Target": {
+                      "Entity": "dim_export_destination"
+                    }
+                  },
+                  "dim_export_destination.country_ID": {
+                    "Target": {
+                      "Entity": "dim_export_destination.country_ID"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_export_destination_has_region": {
+                "Binding": {
+                  "ConceptualEntity": "Dim_ExportDestination"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_export_destination.region"
+                      },
+                      "Subject": {
+                        "Role": "dim_export_destination"
+                      }
+                    },
+                    "ID": "dim_export_destinations_have_regions",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_export_destination": {
+                    "Target": {
+                      "Entity": "dim_export_destination"
+                    }
+                  },
+                  "dim_export_destination.region": {
+                    "Target": {
+                      "Entity": "dim_export_destination.region"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_export_destination_in_country": {
+                "Binding": {
+                  "ConceptualEntity": "Dim_ExportDestination"
+                },
+                "Phrasings": [
+                  {
+                    "ID": "dim_export_destinations_are_in_countries",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "dim_export_destination.country"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "dim_export_destination"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_export_destination": {
+                    "Target": {
+                      "Entity": "dim_export_destination"
+                    }
+                  },
+                  "dim_export_destination.country": {
+                    "Target": {
+                      "Entity": "dim_export_destination.country"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "Where": {
+                    "Role": "dim_export_destination.country"
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_export_destination_in_region": {
+                "Binding": {
+                  "ConceptualEntity": "Dim_ExportDestination"
+                },
+                "Phrasings": [
+                  {
+                    "ID": "dim_export_destinations_are_in_regions",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "dim_export_destination.region"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "dim_export_destination"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_export_destination": {
+                    "Target": {
+                      "Entity": "dim_export_destination"
+                    }
+                  },
+                  "dim_export_destination.region": {
+                    "Target": {
+                      "Entity": "dim_export_destination.region"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "Where": {
+                    "Role": "dim_export_destination.region"
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_product_has_industry": {
+                "Binding": {
+                  "ConceptualEntity": "Dim_Product"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_product.industry"
+                      },
+                      "Subject": {
+                        "Role": "dim_product"
+                      }
+                    },
+                    "ID": "dim_products_have_industries",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_product": {
+                    "Target": {
+                      "Entity": "dim_product"
+                    }
+                  },
+                  "dim_product.industry": {
+                    "Target": {
+                      "Entity": "dim_product.industry"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_product_has_industry_code": {
+                "Binding": {
+                  "ConceptualEntity": "Dim_Product"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_product.industry_code"
+                      },
+                      "Subject": {
+                        "Role": "dim_product"
+                      }
+                    },
+                    "ID": "dim_products_have_industry_codes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_product": {
+                    "Target": {
+                      "Entity": "dim_product"
+                    }
+                  },
+                  "dim_product.industry_code": {
+                    "Target": {
+                      "Entity": "dim_product.industry_code"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_product_has_industry_group": {
+                "Binding": {
+                  "ConceptualEntity": "Dim_Product"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_product.industry_group"
+                      },
+                      "Subject": {
+                        "Role": "dim_product"
+                      }
+                    },
+                    "ID": "dim_products_have_industry_groups",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_product": {
+                    "Target": {
+                      "Entity": "dim_product"
+                    }
+                  },
+                  "dim_product.industry_group": {
+                    "Target": {
+                      "Entity": "dim_product.industry_group"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_product_has_product": {
+                "Binding": {
+                  "ConceptualEntity": "Dim_Product"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_product.product"
+                      },
+                      "Subject": {
+                        "Role": "dim_product"
+                      }
+                    },
+                    "ID": "dim_products_have_products",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_product": {
+                    "Target": {
+                      "Entity": "dim_product"
+                    }
+                  },
+                  "dim_product.product": {
+                    "Target": {
+                      "Entity": "dim_product.product"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_product_has_product_code": {
+                "Binding": {
+                  "ConceptualEntity": "Dim_Product"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_product.product_code"
+                      },
+                      "Subject": {
+                        "Role": "dim_product"
+                      }
+                    },
+                    "ID": "dim_products_have_product_codes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_product": {
+                    "Target": {
+                      "Entity": "dim_product"
+                    }
+                  },
+                  "dim_product.product_code": {
+                    "Target": {
+                      "Entity": "dim_product.product_code"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_product_has_sector": {
+                "Binding": {
+                  "ConceptualEntity": "Dim_Product"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_product.sector"
+                      },
+                      "Subject": {
+                        "Role": "dim_product"
+                      }
+                    },
+                    "ID": "dim_products_have_sectors",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_product": {
+                    "Target": {
+                      "Entity": "dim_product"
+                    }
+                  },
+                  "dim_product.sector": {
+                    "Target": {
+                      "Entity": "dim_product.sector"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_brazil_export_date_inc_ref_has_variation_date_hierarchy": {
+                "Binding": {
+                  "ConceptualEntity": "Fact_BrazilExports"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_brazil_export.date_inc_ref.variation.date_hierarchy"
+                      },
+                      "Subject": {
+                        "Role": "fact_brazil_export.date_inc_ref"
+                      }
+                    },
+                    "ID": "date_inc_refs_have_date_hierarchy_inc_refs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_brazil_export.date_inc_ref": {
+                    "Target": {
+                      "Entity": "fact_brazil_export.date_inc_ref"
+                    }
+                  },
+                  "fact_brazil_export.date_inc_ref.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "fact_brazil_export.date_inc_ref.variation.date_hierarchy"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_brazil_export_date_inc_ref_variation_date_hierarchy_has_day": {
+                "Binding": {
+                  "ConceptualEntity": "Fact_BrazilExports"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_brazil_export.date_inc_ref.variation.date_hierarchy.day"
+                      },
+                      "Subject": {
+                        "Role": "fact_brazil_export.date_inc_ref.variation.date_hierarchy"
+                      }
+                    },
+                    "ID": "date_hierarchy_inc_refs_have_day_inc_refs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_brazil_export.date_inc_ref.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "fact_brazil_export.date_inc_ref.variation.date_hierarchy"
+                    }
+                  },
+                  "fact_brazil_export.date_inc_ref.variation.date_hierarchy.day": {
+                    "Target": {
+                      "Entity": "fact_brazil_export.date_inc_ref.variation.date_hierarchy.day"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_brazil_export_date_inc_ref_variation_date_hierarchy_has_month": {
+                "Binding": {
+                  "ConceptualEntity": "Fact_BrazilExports"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_brazil_export.date_inc_ref.variation.date_hierarchy.month"
+                      },
+                      "Subject": {
+                        "Role": "fact_brazil_export.date_inc_ref.variation.date_hierarchy"
+                      }
+                    },
+                    "ID": "date_hierarchy_inc_refs_have_month_inc_refs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_brazil_export.date_inc_ref.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "fact_brazil_export.date_inc_ref.variation.date_hierarchy"
+                    }
+                  },
+                  "fact_brazil_export.date_inc_ref.variation.date_hierarchy.month": {
+                    "Target": {
+                      "Entity": "fact_brazil_export.date_inc_ref.variation.date_hierarchy.month"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_brazil_export_date_inc_ref_variation_date_hierarchy_has_quarter": {
+                "Binding": {
+                  "ConceptualEntity": "Fact_BrazilExports"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_brazil_export.date_inc_ref.variation.date_hierarchy.quarter"
+                      },
+                      "Subject": {
+                        "Role": "fact_brazil_export.date_inc_ref.variation.date_hierarchy"
+                      }
+                    },
+                    "ID": "date_hierarchy_inc_refs_have_quarter_inc_refs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_brazil_export.date_inc_ref.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "fact_brazil_export.date_inc_ref.variation.date_hierarchy"
+                    }
+                  },
+                  "fact_brazil_export.date_inc_ref.variation.date_hierarchy.quarter": {
+                    "Target": {
+                      "Entity": "fact_brazil_export.date_inc_ref.variation.date_hierarchy.quarter"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_brazil_export_date_inc_ref_variation_date_hierarchy_has_year": {
+                "Binding": {
+                  "ConceptualEntity": "Fact_BrazilExports"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_brazil_export.date_inc_ref.variation.date_hierarchy.year"
+                      },
+                      "Subject": {
+                        "Role": "fact_brazil_export.date_inc_ref.variation.date_hierarchy"
+                      }
+                    },
+                    "ID": "date_hierarchy_inc_refs_have_year_inc_refs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_brazil_export.date_inc_ref.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "fact_brazil_export.date_inc_ref.variation.date_hierarchy"
+                    }
+                  },
+                  "fact_brazil_export.date_inc_ref.variation.date_hierarchy.year": {
+                    "Target": {
+                      "Entity": "fact_brazil_export.date_inc_ref.variation.date_hierarchy.year"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_brazil_export_has_date_inc_ref": {
+                "Binding": {
+                  "ConceptualEntity": "Fact_BrazilExports"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_brazil_export.date_inc_ref"
+                      },
+                      "Subject": {
+                        "Role": "fact_brazil_export"
+                      }
+                    },
+                    "ID": "fact_brazil_exports_have_date_inc_refs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_brazil_export": {
+                    "Target": {
+                      "Entity": "fact_brazil_export"
+                    }
+                  },
+                  "fact_brazil_export.date_inc_ref": {
+                    "Target": {
+                      "Entity": "fact_brazil_export.date_inc_ref"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_brazil_export_has_dim_brazil_location": {
+                "Binding": {
+                  "ConceptualEntity": "Fact_BrazilExports"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_brazil_location"
+                      },
+                      "Subject": {
+                        "Role": "fact_brazil_export"
+                      }
+                    },
+                    "ID": "fact_brazil_exports_have_dim_brazil_locations",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_brazil_export"
+                      },
+                      "Subject": {
+                        "Role": "dim_brazil_location"
+                      }
+                    },
+                    "ID": "dim_brazil_locations_have_fact_brazil_exports",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_brazil_location": {
+                    "Target": {
+                      "Entity": "dim_brazil_location"
+                    }
+                  },
+                  "fact_brazil_export": {
+                    "Target": {
+                      "Entity": "fact_brazil_export"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_brazil_export_has_dim_date": {
+                "Binding": {
+                  "ConceptualEntity": "Fact_BrazilExports"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_date"
+                      },
+                      "Subject": {
+                        "Role": "fact_brazil_export"
+                      }
+                    },
+                    "ID": "fact_brazil_exports_have_dim_dates",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_brazil_export"
+                      },
+                      "Subject": {
+                        "Role": "dim_date"
+                      }
+                    },
+                    "ID": "dim_dates_have_fact_brazil_exports",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_date": {
+                    "Target": {
+                      "Entity": "dim_date"
+                    }
+                  },
+                  "fact_brazil_export": {
+                    "Target": {
+                      "Entity": "fact_brazil_export"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_brazil_export_has_dim_export_destination": {
+                "Binding": {
+                  "ConceptualEntity": "Fact_BrazilExports"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_export_destination"
+                      },
+                      "Subject": {
+                        "Role": "fact_brazil_export"
+                      }
+                    },
+                    "ID": "fact_brazil_exports_have_dim_export_destinations",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_brazil_export"
+                      },
+                      "Subject": {
+                        "Role": "dim_export_destination"
+                      }
+                    },
+                    "ID": "dim_export_destinations_have_fact_brazil_exports",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_export_destination": {
+                    "Target": {
+                      "Entity": "dim_export_destination"
+                    }
+                  },
+                  "fact_brazil_export": {
+                    "Target": {
+                      "Entity": "fact_brazil_export"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_brazil_export_has_dim_product": {
+                "Binding": {
+                  "ConceptualEntity": "Fact_BrazilExports"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_product"
+                      },
+                      "Subject": {
+                        "Role": "fact_brazil_export"
+                      }
+                    },
+                    "ID": "fact_brazil_exports_have_dim_products",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_brazil_export"
+                      },
+                      "Subject": {
+                        "Role": "dim_product"
+                      }
+                    },
+                    "ID": "dim_products_have_fact_brazil_exports",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_product": {
+                    "Target": {
+                      "Entity": "dim_product"
+                    }
+                  },
+                  "fact_brazil_export": {
+                    "Target": {
+                      "Entity": "fact_brazil_export"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_brazil_export_has_export_earnings": {
+                "Binding": {
+                  "ConceptualEntity": "Fact_BrazilExports"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_brazil_export.export_earnings"
+                      },
+                      "Subject": {
+                        "Role": "fact_brazil_export"
+                      }
+                    },
+                    "ID": "fact_brazil_exports_have_export_earnings",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_brazil_export": {
+                    "Target": {
+                      "Entity": "fact_brazil_export"
+                    }
+                  },
+                  "fact_brazil_export.export_earnings": {
+                    "Target": {
+                      "Entity": "fact_brazil_export.export_earnings"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_brazil_export_in_dim_brazil_location": {
+                "Binding": {
+                  "ConceptualEntity": "Fact_BrazilExports"
+                },
+                "Phrasings": [
+                  {
+                    "ID": "fact_brazil_exports_are_in_dim_brazil_locations",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "dim_brazil_location"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "fact_brazil_export"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_brazil_location": {
+                    "Target": {
+                      "Entity": "dim_brazil_location"
+                    }
+                  },
+                  "fact_brazil_export": {
+                    "Target": {
+                      "Entity": "fact_brazil_export"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "Where": {
+                    "Role": "dim_brazil_location"
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "3.5.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "relationships": [
+      {
+        "name": "1cb63443-95b1-4662-9f99-52ef5fe07afe",
+        "annotations": [
+          {
+            "name": "PBI_IsFromSource",
+            "value": "FS"
+          }
+        ],
+        "fromColumn": "CityID",
+        "fromTable": "Fact_BrazilExports",
+        "toColumn": "CityID",
+        "toTable": "Dim_BrazilLocation"
+      },
+      {
+        "name": "bcbe1c9e-cc71-4750-b6da-5d4633a90c23",
+        "annotations": [
+          {
+            "name": "PBI_IsFromSource",
+            "value": "FS"
+          }
+        ],
+        "fromColumn": "CountryID",
+        "fromTable": "Fact_BrazilExports",
+        "toColumn": "CountryID",
+        "toTable": "Dim_ExportDestination"
+      },
+      {
+        "name": "6295e921-beaf-4db9-8246-ef94d8bd84b0",
+        "annotations": [
+          {
+            "name": "PBI_IsFromSource",
+            "value": "FS"
+          }
+        ],
+        "fromColumn": "ProductCode",
+        "fromTable": "Fact_BrazilExports",
+        "toColumn": "ProductCode",
+        "toTable": "Dim_Product"
+      },
+      {
+        "name": "b2479d6b-6edb-4113-9363-64e658790abf",
+        "annotations": [
+          {
+            "name": "PBI_IsFromSource",
+            "value": "FS"
+          }
+        ],
+        "fromColumn": "DateID",
+        "fromTable": "Fact_BrazilExports",
+        "toColumn": "DateID",
+        "toTable": "Dim_Date"
+      }
+    ],
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "Dim_BrazilLocation",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "CityID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "b94fdace-187b-4ce9-a2f5-cc02ad8b92d2",
+            "sourceColumn": "CityID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "City",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b1f3323d-37ff-4f0d-944a-945da1134569",
+            "sourceColumn": "City",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "State",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "03a877b8-1b7c-4bd3-add5-93fa4f7731c1",
+            "sourceColumn": "State",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "State Abbv",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "de8945c4-16f2-4267-8732-a134e9b6e22c",
+            "sourceColumn": "State Abbv",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "64381c46-8951-4646-9163-25e6c34447ab",
+        "partitions": [
+          {
+            "name": "Dim_BrazilLocation",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Sql.Databases(\"DESKTOP-4MVJILR\"),",
+                "    BrazilianExports = Source{[Name=\"BrazilianExports\"]}[Data],",
+                "    dbo_Dim_BrazilLocation = BrazilianExports{[Schema=\"dbo\",Item=\"Dim_BrazilLocation\"]}[Data]",
+                "in",
+                "    dbo_Dim_BrazilLocation"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Dim_ExportDestination",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "CountryID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "b54741c2-72fe-46f2-95c2-45b60d44cbf7",
+            "sourceColumn": "CountryID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Country",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "914e58c7-a73a-4bad-84a3-385db1fff60a",
+            "sourceColumn": "Country",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Region",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c7d574f4-4dea-4747-b80a-8586a59d8a6e",
+            "sourceColumn": "Region",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "39d94f91-a789-4157-a0c7-8825dd6156ed",
+        "partitions": [
+          {
+            "name": "Dim_ExportDestination",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Sql.Databases(\"DESKTOP-4MVJILR\"),",
+                "    BrazilianExports = Source{[Name=\"BrazilianExports\"]}[Data],",
+                "    dbo_Dim_ExportDestination = BrazilianExports{[Schema=\"dbo\",Item=\"Dim_ExportDestination\"]}[Data]",
+                "in",
+                "    dbo_Dim_ExportDestination"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Dim_Product",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "ProductCode",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "6113cbb2-1886-47d0-8fbd-6afa3753259f",
+            "sourceColumn": "ProductCode",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Product",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1686b321-02c2-4343-88df-2da0fcc080ab",
+            "sourceColumn": "Product",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Industry Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "152ff632-6853-4e1e-affe-1212437e62e7",
+            "sourceColumn": "Industry Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Industry",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "75636783-82be-455d-942a-79f969a696db",
+            "sourceColumn": "Industry",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Industry Group",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "80f13649-1825-48c3-a14d-81d8e78010f1",
+            "sourceColumn": "Industry Group",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Sector",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "506fad09-9a98-4f29-b351-666e01371ea8",
+            "sourceColumn": "Sector",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "cc5bbb56-3c38-4808-bb89-1d371c40c210",
+        "partitions": [
+          {
+            "name": "Dim_Product",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Sql.Databases(\"DESKTOP-4MVJILR\"),",
+                "    BrazilianExports = Source{[Name=\"BrazilianExports\"]}[Data],",
+                "    dbo_Dim_Product = BrazilianExports{[Schema=\"dbo\",Item=\"Dim_Product\"]}[Data]",
+                "in",
+                "    dbo_Dim_Product"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Dim_Date",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "DateID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "511e3a55-a4ce-494a-89de-dcd4369e3e2e",
+            "sourceColumn": "DateID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "isKey": true,
+            "lineageTag": "c52d0a86-c9c9-474f-bf75-8e53b0e52e65",
+            "sourceColumn": "Date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "198fc042-6add-490f-a576-9cbccbe1abc9",
+            "sourceColumn": "Year",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f83d2aef-a2ad-4e7a-8369-02c448f107a2",
+            "sourceColumn": "Quarter",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "SortByColumn"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "262d15ea-ac84-46b4-98a3-4603112a725d",
+            "sortByColumn": "MonthNum",
+            "sourceColumn": "Month",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "MonthNum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "a56d2d9c-dfdf-446a-892f-b77e82361e5e",
+            "sourceColumn": "MonthNum",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "DateIncRef",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "a5515a6a-d72b-4040-a885-ce0294331afd",
+            "sourceColumn": "DateIncRef",
+            "summarizeBy": "none"
+          }
+        ],
+        "dataCategory": "Time",
+        "lineageTag": "6d684193-e4c4-4e70-b7b0-211db30064a8",
+        "partitions": [
+          {
+            "name": "Dim_Date",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Sql.Databases(\"DESKTOP-4MVJILR\"),",
+                "    BrazilianExports = Source{[Name=\"BrazilianExports\"]}[Data],",
+                "    dbo_Dim_Date = BrazilianExports{[Schema=\"dbo\",Item=\"Dim_Date\"]}[Data]",
+                "in",
+                "    dbo_Dim_Date"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Fact_BrazilExports",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "DateID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "8be92451-12fb-4b5f-ad45-b40db007740d",
+            "sourceColumn": "DateID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ProductCode",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "c54dc7ec-3a89-473f-ba23-ee0b645184db",
+            "sourceColumn": "ProductCode",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "CityID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "44b0bde3-8b1e-4be8-91ac-f768ecb4cbfe",
+            "sourceColumn": "CityID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "CountryID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "e03c388e-3532-4cdb-bdb1-a8e6fcf0c87b",
+            "sourceColumn": "CountryID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ExportEarnings",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "cd96ea31-b60c-4c9a-929a-6c5346522c6c",
+            "sourceColumn": "ExportEarnings",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "DateIncRef",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "d5aba424-65bf-4684-b911-f7c40de71fa4",
+            "sourceColumn": "DateIncRef",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "6373e75f-df7c-48bc-ab01-0b02243b6291",
+        "partitions": [
+          {
+            "name": "Fact_BrazilExports",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Sql.Databases(\"DESKTOP-4MVJILR\"),",
+                "    BrazilianExports = Source{[Name=\"BrazilianExports\"]}[Data],",
+                "    dbo_Fact_BrazilExports = BrazilianExports{[Schema=\"dbo\",Item=\"Fact_BrazilExports\"]}[Data]",
+                "in",
+                "    dbo_Fact_BrazilExports"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Measures Table",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "lineageTag": "d69f1691-f6f4-47e9-b9ec-ebbaf508a38d",
+        "measures": [
+          {
+            "name": "Total Export Earnings",
+            "expression": "SUM(Fact_BrazilExports[ExportEarnings])",
+            "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+            "lineageTag": "f863329b-d51a-404b-9852-d9087222a86e"
+          },
+          {
+            "name": "Export Earnings Per Month",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"en-US\"}"
+              }
+            ],
+            "expression": "DIVIDE([Total Export Earnings], COUNTROWS(DISTINCT(SUMMARIZE(Dim_Date, Dim_Date[Year], Dim_Date[MonthNum]))))",
+            "formatString": "\\$#,0.00;(\\$#,0.00);\\$#,0.00",
+            "lineageTag": "fc74c3df-4172-44c8-a271-689c58ff8374"
+          },
+          {
+            "name": "Export Concentration",
+            "expression": [
+              "",
+              "DIVIDE(CALCULATE([Total Export Earnings], ALL(), VALUES(Dim_Product), ",
+              "            VALUES(Dim_BrazilLocation[State]), VALUES(Dim_ExportDestination[Region]), ",
+              "            VALUES(Dim_ExportDestination[Country]), VALUES(Dim_Date[Date])",
+              "        ),",
+              "        CALCULATE([Total Export Earnings], ALL(), VALUES(Dim_Date[Year])",
+              "        )",
+              ")"
+            ],
+            "formatString": "0.0%;-0.0%;0.0%",
+            "lineageTag": "3e36d5ab-7bb0-4b97-b796-7149afc8a74f"
+          },
+          {
+            "name": "Export Earnings MOM",
+            "expression": [
+              "",
+              " ",
+              "VAR ExportEarningsLM = CALCULATE([Total Export Earnings], DATEADD('Dim_Date'[Date], -1, MONTH))",
+              " ",
+              "RETURN",
+              " ",
+              "IF(ISBLANK(ExportEarningsLM), 0, DIVIDE([Total Export Earnings]- ExportEarningsLM, ExportEarningsLM))"
+            ],
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "1405cb0c-ff5c-4436-96e1-94422bc2748b"
+          },
+          {
+            "name": "Export Earnings YOY",
+            "expression": [
+              "",
+              " ",
+              "VAR ExportEarningsLY = CALCULATE([Total Export Earnings], DATEADD(Dim_Date[Date], -1, YEAR))",
+              " ",
+              "VAR ExportEarningsCY = CALCULATE([Total Export Earnings], DATEADD('Dim_Date'[Date], 0, YEAR), YEAR('Dim_Date'[Date]) <> 2010)",
+              " ",
+              "RETURN",
+              " ",
+              "IF(ISBLANK(ExportEarningsLY), 0, DIVIDE(ExportEarningsCY - ExportEarningsLY, ExportEarningsLY))"
+            ],
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "6f8f97fe-fcaf-4075-a10f-3b1a92518d37"
+          },
+          {
+            "name": "Arrow EA MoM",
+            "expression": "SWITCH(TRUE(), [Export Earnings MOM] <0, UNICHAR(9660), [Export Earnings MOM] >0, UNICHAR(9650))",
+            "lineageTag": "c52adf05-7336-4cca-9fee-97c5d620e7b3"
+          },
+          {
+            "name": "Arrow EA YoY",
+            "expression": "SWITCH(TRUE(), [Export Earnings YOY] <0, UNICHAR(9660), [Export Earnings YOY] >0, UNICHAR(9650))",
+            "lineageTag": "bca161ab-2369-4120-9a2d-639e1b1f5a2a"
+          },
+          {
+            "name": "State Export Concentration",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "IF(HASONEVALUE(Dim_BrazilLocation[State]),",
+              "    DIVIDE(CALCULATE([Total Export Earnings], ALL(), VALUES(Dim_Product),",
+              "            VALUES(Dim_BrazilLocation[State]), VALUES(Dim_ExportDestination), VALUES('Dim_Date'[Date])",
+              "            ),",
+              "            CALCULATE([Total Export Earnings], ALL(), VALUES('Dim_Date'[Date]),",
+              "                VALUES(Dim_BrazilLocation[State])",
+              "            )",
+              "    ), \"N/A\"",
+              ")"
+            ],
+            "lineageTag": "03a9d80c-e614-4cbd-b243-0f97f80bd230"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Measures Table",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"i44FAA==\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Measures = _t]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(Source,{{\"Measures\", type text}}),",
+                "    #\"Removed Columns\" = Table.RemoveColumns(#\"Changed Type\",{\"Measures\"})",
+                "in",
+                "    #\"Removed Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

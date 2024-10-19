@@ -1,0 +1,9 @@
+{
+  "version": "4.0",
+  "datasetReference": {
+    "byPath": {
+      "path": "../BrazilianExports_2010-20.SemanticModel"
+    },
+    "byConnection": null
+  }
+}
