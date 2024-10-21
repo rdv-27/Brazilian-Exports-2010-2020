@@ -42,7 +42,9 @@ This report analyzes trends in Brazil's exportation from 2010 to 2020. It utiliz
 
 <h2>Process</h2>
 
-I had to approach this project from various angles. I initially attempted to load the CSV file directly into Power BI, where I additionally had to alter the file to create fact and dimension tables using Power Query. It NEVER finished loading, 3.3 GB was too much data and transformation for Power Query to handle. I then decided that I would need to load this data into a dimensional model in SQL Server to be able to then load it into Power BI (PBI plays nice with star schemas). 
+I had to approach this project from various angles. I initially attempted to load the CSV file directly into Power BI, where I additionally had to alter the file to create fact and dimension tables using Power Query. It NEVER finished loading, 3.3 GB was too much data and transformation for Power Query to handle. I then decided that I would need to load this data into a dimensional model in SQL Server to be able to then load it into Power BI (PBI plays nice with star schemas).
+
+![SQL Server BE Diagram](https://github.com/user-attachments/assets/0d80f2d0-4927-4520-b276-275612c65212)
 
 In one variant, I loaded the data directly into SQL Server using BULK INSERT.
 
@@ -64,9 +66,9 @@ By doing this, I was able to obtain a list of 97 distinct product codes and prod
 
 ![image](https://github.com/user-attachments/assets/65b167de-3e8b-47d2-abbd-c5f03dec30b7)
 
-I created a staging database and within it a staging table and a table called IncVal (short for incrementing value) as well as a database to hold a second staging table and fact and dimension tables. The IncVal table consisted of an integer identity column called IncVal and an integer column called Year.
+I created a staging database and within it a staging table and a table called IncVal (short for incrementing value) as well as a database to hold a second staging table and fact and dimension tables. The IncVal table consisted of an integer identity column called IncVal and an integer column called Year. <a href="https://github.com/rdv-27/Brazilian-Exports-2010-2020/blob/main/1.%20Create%20BrazilianExports_Staging%20Updated.sql">Code found here.</a> 
 
-
+<br>
 
 I then created an SSIS package using Visual Studio. I wanted to load the data into the dimensional model year-by-year, so I set the SSIS package to load it into the staging and IncVal tables within the staging database. This data was then SELECTed INTO the staging table in the Brazil Exports database where transformations were simultaneously applied and then loaded into corresponding fact and dimension tables. A Stored Procedure was created to encapsulate most of this logic, WHERE NOT EXISTS was added to the code for the loading of two dimension tables to provide incremental loading and SCD type 2 functionality. The SSIS package was then modified to TRUNCATE the staging table in the staging database which would then be followed by a data flow that made some minimal transformations and loaded into the staging table in the staging database, this was ultimately followed by a(n EXECUTE SQL) Task that executed the stored procedure. The entire ETL/ELT process was then automated by creating a SQL Server Agent Job that automated the process by scheduling regular executions of the job.
 
