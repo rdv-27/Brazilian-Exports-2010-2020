@@ -19,7 +19,7 @@ CREATE TABLE	BrazilianExportsStaging	(
 
 /*	
 	Create a table containing columns that store an incrementing/identity value and each individual year.
-	Year values allow identification of individual years so that year by year batch loading can be used.
+	Year values allow identification of individual years so that year by year batch loading can be performed.
 	The most recent identity value is used in SSIS package as a variable that gets summed to the year value to allow
 	loading of subsequent year's data.
 */
