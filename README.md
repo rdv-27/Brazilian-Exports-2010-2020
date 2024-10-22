@@ -88,7 +88,7 @@ In SSIS I had to utilize variables to load data year by year; I also had to lear
 
 ![1c](https://github.com/user-attachments/assets/f2ec1f8d-ffc8-4519-9c18-adc3de946abd)
 
-Below you can see how data for Argentian was duplicated because Argentina was classified in two separate regions.
+Below you can see how data for Argentina was duplicated because Argentina was grouped in two separate regions.
 
 ![1d](https://github.com/user-attachments/assets/615e6834-ec67-4550-8a0d-74dc433d4a63)
 
