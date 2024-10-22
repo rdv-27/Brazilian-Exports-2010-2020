@@ -36,9 +36,9 @@ This report analyzes trends in Brazil's exportation from 2010 to 2020. It utiliz
 <h3>Visualizations</h3>
  
 -	The <b>State map</b> shows Brazil’s states which are shaded according to Total Export Earnings. Darker shades represent higher Export Earnings and vice versa.
--	The <br><b>Export Destination map</b> shows the regions and countries that Brazil exports to. To see the countries Brazil exports to, you drill down on the region containing the country. Darker shades represent higher Export Earnings and vice versa.
--	The <br><b>Sector/.../Product line and clustered column chart</b> is four tiered and can drill down from Sector all the way to Product. It visualizes EE Month over Month, EE Year over Year, and Export Concentration as lines.
--	The <br>The <b>Month/Year line and clustered column chart</b> shows individual years and can drill down on each of those individual years to show months or it can drill down and show monthly averages for multiple years. It also visualizes three of the metrics as lines.
+-	The <b>Export Destination map</b> shows the regions and countries that Brazil exports to. To see the countries Brazil exports to, you drill down on the region containing the country. Darker shades represent higher Export Earnings and vice versa.
+-	The <b>Sector/.../Product line and clustered column chart</b> is four tiered and can drill down from Sector all the way to Product. It visualizes EE Month over Month, EE Year over Year, and Export Concentration as lines.
+-	The <b>Month/Year line and clustered column chart</b> shows individual years and can drill down on each of those individual years to show months or it can drill down and show monthly averages for multiple years. It also visualizes three of the metrics as lines.
 
 <h2>Process</h2>
 
