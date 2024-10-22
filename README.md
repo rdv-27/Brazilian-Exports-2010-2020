@@ -3,7 +3,7 @@
  ### [YouTube Demonstration](link)
 
 <h2>Description</h2>
-End-to-end data project project that utilizes a 3.33 gigabyte CSV dataset containing <a href="https://www.kaggle.com/datasets/hugovallejo/brazil-exports">Brazil's exportation data</a> from 2010 to 2020 and stitches it with <a href="https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard">GICS (Global Industry Classification Standard)</a> and Brazil state and province codes datasets to provide additional insights. Core concepts and methodologies applied include, but are not limited to, dimensional modeling, data stitching, ELT, ETL, data cleaning, reporting, and data visualization. Current version is the result of countless iterations and is a perpetual work in progress.<br />
+End-to-end data project project that utilizes a 3.33 gigabyte CSV <a href="https://www.kaggle.com/datasets/hugovallejo/brazil-exports">dataset</a> containing Brazil's exportation data from 2010 to 2020 and stitches it with <a href="https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard">GICS</a> (Global Industry Classification Standard) and Brazil state and province codes datasets to provide additional insights. Core concepts and methodologies applied include, but are not limited to, dimensional modeling, data stitching, ELT, ETL, data cleaning, reporting, and data visualization. Current version is the result of countless iterations and is a perpetual work in progress.<br />
 
 <h2>Programming Languages, Tools, and Development Environments Used</h2>
 
