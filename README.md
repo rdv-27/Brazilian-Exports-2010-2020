@@ -94,7 +94,7 @@ So to account for this when SELECTing INTO the second staging table I used a WHE
 
 ![image](https://github.com/user-attachments/assets/c824939d-a027-4056-91c4-ecd97806f7ed)
 
-Another challenge occurred because I split a column from the original dataset into state and city columns in the Brazil Exports database. The thing is some cities in Brazil (as in many other places) share the same name, so when I populated my Fact table by pulling data from all the dimension tables using LEFT JOINs, I needed to account for this by using City and State columns as join conditions so that the correct level of granularity was specified, and I didn’t get additional/invalid rows.
+Another challenge occurred because I split a column from the original dataset into state and city columns in the Brazil Exports database. The thing is some cities in Brazil (as in many other places) share the same name, so when I populated my Fact table by pulling data from all the dimension tables using LEFT JOINs. I needed to account for this by using City and State columns as join conditions so that the correct level of granularity was specified and I didn’t get additional/invalid rows.
 
 ![image](https://github.com/user-attachments/assets/8d7c300b-5365-4a65-a7a6-6e83365c2c27)
 
