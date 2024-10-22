@@ -11,7 +11,7 @@ End-to-end data project project that utilizes a 3.33 gigabyte CSV dataset contai
 - <b>SSMS</b>
 - <b>Power BI</b>
 - <b>DAX</b>
-- <b>Power BI</b>
+- <b>Power BI Desktop</b>
 - <b>SSIS</b>
 - <b>Visual Studio</b>
 - <b>Excel</b>
