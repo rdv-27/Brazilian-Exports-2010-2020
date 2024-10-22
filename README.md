@@ -5,7 +5,7 @@
 <h2>Description</h2>
 End-to-end data project project that utilizes a 3.33 gigabyte CSV dataset containing <a href="https://www.kaggle.com/datasets/hugovallejo/brazil-exports">Brazil's exportation data</a> from 2010 to 2020 and stitches it with <a href="https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard">GICS (Global Industry Classification Standard)</a> and Brazil state and province codes datasets to provide additional insights. Core concepts and methodologies applied include, but are not limited to, dimensional modeling, data stitching, ELT, ETL, data cleaning, reporting, and data visualization. Current version is the result of countless iterations and is a perpetual work in progress.<br />
 
-<h2>Languages, Tools, and Development Environments Used</h2>
+<h2>Programming Languages, Tools, and Development Environments Used</h2>
 
 - <b>T-SQL</b>
 - <b>SSMS</b>
@@ -36,9 +36,9 @@ This report analyzes trends in Brazil's exportation from 2010 to 2020. It utiliz
 <h3>Visualizations</h3>
  
 -	The <b>State map</b> shows Brazil’s states which are shaded according to Total Export Earnings. Darker shades represent higher Export Earnings and vice versa.
-<br>•	The <b>Export Destination map</b> shows the regions and countries that Brazil exports to. To see the countries Brazil exports to, you drill down on the region containing the country. Darker shades represent higher Export Earnings and vice versa.
-<br>•	The <b>Sector/.../Product line and clustered column chart</b> is four tiered and can drill down from Sector all the way to Product. It visualizes EE Month over Month, EE Year over Year, and Export Concentration as lines.
-<br>•	The <b>Month/Year line and clustered column chart</b> shows individual years and can drill down on each of those individual years to show months or it can drill down and show monthly averages for multiple years. It also visualizes three of the metrics as lines.
+-	The <br><b>Export Destination map</b> shows the regions and countries that Brazil exports to. To see the countries Brazil exports to, you drill down on the region containing the country. Darker shades represent higher Export Earnings and vice versa.
+-	The <br><b>Sector/.../Product line and clustered column chart</b> is four tiered and can drill down from Sector all the way to Product. It visualizes EE Month over Month, EE Year over Year, and Export Concentration as lines.
+-	The <br>The <b>Month/Year line and clustered column chart</b> shows individual years and can drill down on each of those individual years to show months or it can drill down and show monthly averages for multiple years. It also visualizes three of the metrics as lines.
 
 <h2>Process</h2>
 
