@@ -100,9 +100,12 @@ Another challenge occurred because I split a column from the original dataset in
 
 ![image](https://github.com/user-attachments/assets/8d7c300b-5365-4a65-a7a6-6e83365c2c27)
 
-When it came to Power BI, the project posed many challenges. For any type of time analysis you need to use DAX functions referred to as Time Intelligence functions which requires that you to have what’s known as a Date/Calendar table. But this Date table needs to have a continuous range of dates, even if those dates aren’t relevant to your data, so that Power BI can slice your data by date. The data in the Brazil Exports dataset doesn’t have continuous dates, it just contains year and month information, so I had to implement logic in SQL Server to give date dimension data the necessary format to create continuous dates in the date dimension.
+When it came to Power BI, the project posed many challenges. For any type of time analysis you need to use DAX functions referred to as Time Intelligence functions which requires that you to have what’s known as a Date/Calendar table. But this Date table needs to have a continuous range of dates, even if those dates aren’t relevant to your data, so that Power BI can slice your data by date. The data in the Brazil Exports dataset doesn’t have continuous dates, it just contains year and month information, so I had to implement logic in SQL Server to give date dimension data the necessary format to create continuous dates in the date dimension. Below is the code I used:
 
 ![image](https://github.com/user-attachments/assets/81855e69-5581-464a-970e-655871cea64f)
 
 I also implemented this logic using DAX in one of my many iterations.
+
+![image](https://github.com/user-attachments/assets/b1d8f406-57ed-4f89-823d-daf4a1d5fe11)
+
 
