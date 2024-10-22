@@ -64,8 +64,6 @@ By doing this, I was able to obtain a list of 97 distinct product codes and prod
 
 I created a staging database and within it a staging table and a table called IncVal (short for incrementing value) as well as a database to hold a second staging table and fact and dimension tables. The IncVal table consisted of an integer identity column called IncVal and an integer column called Year. <a href="https://github.com/rdv-27/Brazilian-Exports-2010-2020/blob/main/1.%20Create%20BrazilianExports_Staging%20Updated.sql">Code found here.</a> 
 
-<br>
-
 I then created an SSIS package using Visual Studio. I wanted to load the data into the dimensional model year-by-year, so I set the SSIS package to load data into the staging and IncVal tables within the staging database. This data was then SELECTed INTO the staging table in the Brazil Exports database where transformations were simultaneously applied and then loaded into corresponding fact and dimension tables. A Stored Procedure was created to encapsulate most of this logic, WHERE NOT EXISTS was added to the code for the loading of two dimension tables to provide incremental loading and SCD type 2 functionality. <a href="https://github.com/rdv-27/Brazilian-Exports-2010-2020/blob/main/3.%20InsertToFactAndDimensionTablesSP%20Error%20Handling.sql">Code found here.</a> 
 
 The SSIS package was then modified to TRUNCATE the staging table in the staging database which would then be followed by a data flow that made some minimal transformations and loaded into the staging table in the staging database, this was ultimately followed by a(n EXECUTE SQL) Task that executed the stored procedure.
@@ -82,7 +80,7 @@ The entire ETL/ELT process was then automated by creating a SQL Server Agent Job
 
 <h2>Challenges</h2>
 
-The dataset I chose was appealing mainly for the technical challenges it posed, however I am most definitely a fan of Brazilian culture (music, soccer, and geography). As I’ve mentioned I had to explore various approaches. It was considerably larger than most of the other datasets on Kaggle, so it forced me to explore various approaches when it came to loading it into Power BI.
+The dataset I chose was appealing mainly for the technical challenges it posed, but I am definitely a fan of Brazilian culture (music, soccer, and geography) so this was a chance to learn a bit more about it. As I’ve mentioned I had to explore various approaches. It was considerably larger than most of the other datasets on Kaggle, so it forced me to explore various approaches when it came to loading it into Power BI.
 
 In SSIS I had to utilize variables to load data year by year; I also had to learn how to handle different collation/UTF-8 data. The dataset contained duplicate values; it contained an attribute/column that specified the region that a product was exported to, but some rows described the exact same transaction and thus overlapped, e.g. you would have two rows describing the exact same transaction with one classified as exported to Europe and the other as European Union or South America and Mercosul (Southern Common Market).
 
