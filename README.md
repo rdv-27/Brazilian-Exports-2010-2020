@@ -102,7 +102,7 @@ When it came to Power BI, the project posed many challenges. For any type of tim
 
 ![image](https://github.com/user-attachments/assets/81855e69-5581-464a-970e-655871cea64f)
 
-I also implemented this logic using DAX in one of my many iterations.
+I also implemented logic to create continuous dates using DAX in one of my many iterations.
 
 ![image](https://github.com/user-attachments/assets/b1d8f406-57ed-4f89-823d-daf4a1d5fe11)
 
