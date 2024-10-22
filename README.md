@@ -31,7 +31,7 @@ This report analyzes trends in Brazil's exportation from 2010 to 2020. It utiliz
 - <b>Export Concentration</b> shows you what percentage of export earnings something accounts for. For example, it can show you what percentage of export earnings a sector, state, or foreign market accounts for. In this way you can see how important certain markets, sectors, and states are.
 - <b>State Export Concentration</b> only shows a value once you’ve selected a state. State Export Concentration shows the percentage of export earnings something accounts for within the selected state.
 - <b>Export Earnings MoM</b> shows how earnings fluctuate from month to month in a given time period.
-- <b>Export Earnings YoY</b>shows how earnings vary from the previous year to the current year or if several years are selected it gives the average YoY change for those years.
+- <b>Export Earnings YoY</b> shows how earnings vary from the previous year to the current year or if several years are selected it gives the average YoY change for those years.
  
 <h3>Visualizations</h3>
  
